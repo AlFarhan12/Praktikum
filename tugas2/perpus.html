@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modul</title>
+        <style>
+            body{
+                background-color: chartreuse;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>FORMULIR KUNJUNG PERPUSTAKAAN</h1>
+        <form action=" formulir.html" method="get">
+            Nama: <input type="text" name="nama" value=" " />
+            <br />
+            Email: <input type="password" name="password" />
+            <br />
+            Jenis Kelamin :
+            <input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+            Laki - Laki
+            <input type="radio" name="jenis_kelamin" value="perempuan" />
+            Perempuan
+            <br />
+            Pendidikan: <input type="checkbox" name="Pendidikan_SD" /> SD
+            <input type="checkbox" name="Pendidikan_SMP" checked /> SMP
+            <input type="checkbox" name="Pendidikan_SMA" /> SMA
+            <br />
+            Asal Kota:
+            <select name="asal_kota" >
+            <option value="Kota Jakarta"> Jakarta</option>
+            <option>Bandung</option>
+            <option value="Kota Semarang" selected>Semarang</option>
+            </select>
+            <br />
+            Kesan pesan:
+            <br>
+            <textarea name="komentar" rows="5" cols="20">
+            </textarea>
+            <br />
+            <input type="submit" value="Mulai Proses!" >
+        </form>
+    </body>
+</html>
